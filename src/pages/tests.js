@@ -47,7 +47,7 @@ const Megaline = styled(Heading.h1).attrs({
 const CTA = styled(IconButton).attrs({
   is: LargeButton.withComponent(Link),
   color: 'white',
-  glyph: 'slack-fill'
+  glyph: 'slack-fill',
   bg="primary"
 })
 
