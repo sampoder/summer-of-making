@@ -44,13 +44,6 @@ const Megaline = styled(Heading.h1).attrs({
   }
 `
 
-const CTA = styled(IconButton).attrs({
-  is: LargeButton.withComponent(Link),
-  color: 'white',
-  glyph: 'slack-fill',
-  bg: "primary"
-})
-
 const title = 'Hack Night – a weekly online hackathon by Hack Club'
 const desc =
   'On Saturday nights, the Hack Club community of high school hackers gathers for Hack Night, a distributed nighttime hackathon and hangout.'
@@ -78,7 +71,7 @@ export default () => (
           Meet some new people, build something cool, talk about it. There are
           no prizes or expectations—just have fun!
         </Lead>
-        <CTA to="/community/">Join #hack-night on Slack</CTA>
+        <Button /> 
       </Container>
     </Hero>
     <Footer/>
