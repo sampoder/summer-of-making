@@ -72,7 +72,7 @@ export default () => (
           Meet some new people, build something cool, talk about it. There are
           no prizes or expectations—just have fun!
         </Lead>
-        <Button /> 
+        <Button>Apply Now</Button>
       </Container>
     </Hero>
     <Footer/>
