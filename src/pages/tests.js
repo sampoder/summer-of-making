@@ -89,6 +89,6 @@ export default () => (
         <CTA to="/community/">Join #hack-night on Slack</CTA>
       </Container>
     </Hero>
-    <Footer dark />
+    <Footer/>
   </Layout>
 )
