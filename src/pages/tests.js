@@ -66,7 +66,7 @@ export default () => (
   <Layout title={title} desc={desc} path="/night/" img="/cards/night.png">
     <Nav color={theme.colors.nightMuted} dark />
     <Hero
-      src="/night.jpg"
+      src="/summer.jpg"
       aria-label="Blood moon & stars in the night sky"
       bg="darker"
     >
