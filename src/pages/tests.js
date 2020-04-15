@@ -71,7 +71,7 @@ export default () => (
       bg="darker"
     >
       <Container px={3} py={[6, 7, 8]}>
-        <Megaline>Join us for Hack Morning.</Megaline>
+        <Megaline>Summer of Making 2020</Megaline>
         <Lead
           fontSize={[3, null, 4]}
           color="nightMuted"
