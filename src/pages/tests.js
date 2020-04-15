@@ -48,6 +48,7 @@ const CTA = styled(IconButton).attrs({
   is: LargeButton.withComponent(Link),
   color: 'white',
   glyph: 'slack-fill'
+  bg="primary"
 })
 
 const title = 'Hack Night – a weekly online hackathon by Hack Club'
