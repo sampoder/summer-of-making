@@ -10,6 +10,7 @@ import {
 import { Link } from 'gatsby'
 import Layout from 'components/Layout'
 import Nav from 'components/Nav'
+import { Button, Icon, Text } from '@hackclub/design-system'
 import Footer from 'components/Footer'
 import IconButton from 'components/IconButton'
 import { Lead } from 'components/Content'
