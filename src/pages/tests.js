@@ -68,7 +68,6 @@ export default () => (
     <Hero
       src="/summer.jpg"
       aria-label="Blood moon & stars in the night sky"
-      bg="darker"
     >
       <Container px={3} py={[6, 7, 8]}>
         <Megaline>Summer of Making 2020</Megaline>
