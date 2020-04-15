@@ -15,7 +15,7 @@ import IconButton from 'components/IconButton'
 import { Lead } from 'components/Content'
 
 theme.colors.summer = '#27292b'
-theme.colors.nightMuted = '#a56a3b'
+theme.colors.summerMuted = '#27292b'
 
 const Hero = styled(BackgroundImage)`
   background-position: 90% center;
@@ -31,9 +31,9 @@ const Megaline = styled(Heading.h1).attrs({
   @supports (-webkit-background-clip: text) {
     background-image: linear-gradient(
       to bottom right,
-      #d98b38 25%,
+      #111212 25%,
       ${theme.colors.summer} 50%,
-      #7c3b00
+      #090a0a
     );
     background-repeat: no-repeat;
     -webkit-background-clip: text;
@@ -52,9 +52,9 @@ const CTA = styled(IconButton).attrs({
 })`
   background-image: radial-gradient(
     ellipse farthest-corner at top left,
-    #d98b38 25%,
+    #111212 25%,
     ${theme.colors.summer} 50%,
-    #7c3b00
+    #090a0a
   );
 `
 
@@ -64,7 +64,7 @@ const desc =
 
 export default () => (
   <Layout title={title} desc={desc} path="/night/" img="/cards/night.png">
-    <Nav color={theme.colors.nightMuted} dark />
+    <Nav color={theme.colors.summerMuted} dark />
     <Hero
       src="/summer.jpg"
       aria-label="Blood moon & stars in the night sky"
