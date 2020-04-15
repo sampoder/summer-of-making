@@ -46,17 +46,9 @@ const Megaline = styled(Heading.h1).attrs({
 
 const CTA = styled(IconButton).attrs({
   is: LargeButton.withComponent(Link),
-  bg: 'night',
   color: 'white',
   glyph: 'slack-fill'
-})`
-  background-image: radial-gradient(
-    ellipse farthest-corner at top left,
-    #111212 25%,
-    ${theme.colors.summer} 50%,
-    #090a0a
-  );
-`
+})
 
 const title = 'Hack Night – a weekly online hackathon by Hack Club'
 const desc =
