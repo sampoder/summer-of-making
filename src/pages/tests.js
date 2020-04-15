@@ -74,7 +74,7 @@ export default () => (
         <Megaline>Summer of Making 2020</Megaline>
         <Lead
           fontSize={[3, null, 4]}
-          color="nightMuted"
+          color="summerMuted"
           maxWidth={52}
           my={3}
           mx={0}
@@ -82,7 +82,7 @@ export default () => (
           On Saturday nights, the Hack Club community of high school hackers
           gathers for Hack Night, a distributed nighttime hackathon and hangout.
         </Lead>
-        <Lead color="nightMuted" maxWidth={36} mb={4} mx={0}>
+        <Lead color="summerMuted" maxWidth={36} mb={4} mx={0}>
           Meet some new people, build something cool, talk about it. There are
           no prizes or expectations—just have fun!
         </Lead>
