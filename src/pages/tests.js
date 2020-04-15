@@ -14,7 +14,7 @@ import Footer from 'components/Footer'
 import IconButton from 'components/IconButton'
 import { Lead } from 'components/Content'
 
-theme.colors.night = '#c57206'
+theme.colors.summer = '#27292b'
 theme.colors.nightMuted = '#a56a3b'
 
 const Hero = styled(BackgroundImage)`
@@ -22,7 +22,7 @@ const Hero = styled(BackgroundImage)`
 `
 
 const Megaline = styled(Heading.h1).attrs({
-  color: 'night',
+  color: 'summer',
   fontSize: [6, null, 7, 8],
   pb: 2
 })`
@@ -32,7 +32,7 @@ const Megaline = styled(Heading.h1).attrs({
     background-image: linear-gradient(
       to bottom right,
       #d98b38 25%,
-      ${theme.colors.night} 50%,
+      ${theme.colors.summer} 50%,
       #7c3b00
     );
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ const CTA = styled(IconButton).attrs({
   background-image: radial-gradient(
     ellipse farthest-corner at top left,
     #d98b38 25%,
-    ${theme.colors.night} 50%,
+    ${theme.colors.summer} 50%,
     #7c3b00
   );
 `
