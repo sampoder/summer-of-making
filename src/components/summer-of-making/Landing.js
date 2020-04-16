@@ -27,7 +27,7 @@ const Slide = styled(Flex).attrs({
   h1 {
     line-height: 1.125;
     letter-spacing: -0.02em;
-    text-shadow: 0 0 12px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
   }
   p {
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
