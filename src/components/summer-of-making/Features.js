@@ -130,9 +130,9 @@ export default () => (
       />
       
       <Module
-        icon="analytics"
-        name="Balance & history"
-        body="Check real-time account balance + transaction history online anytime."
+        icon="help"
+        name="Resources"
+        body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
       />
       <Module
         icon="payment"
@@ -145,14 +145,14 @@ export default () => (
         body="Download liability + photo forms custom written by expert lawyers."
       />
       <Module
-        icon="settings"
-        name="Manage your finances"
-        body="Add notes to transactions, export data, issue reimbursements."
+        icon="shirt"
+        name="Swag"
+        body="Need to ask about this will be given to those who complete."
       />
       <Module
-        icon="google"
-        name="G Suite accounts"
-        body="Get free G Suite accounts & email addresses (like joy@hackpenn.com) for everyone."
+        icon="mention"
+        name="Priority Support"
+        body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
       />
       
     </Modules>
