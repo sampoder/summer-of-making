@@ -50,7 +50,7 @@ const Vignette = styled.div`
 `
 
 const Underline = styled.span`
-  background-image: url(${require('../../../static/underline.svg')});
+  background-image: url(${require('../../../static/underline-alt.svg')});
   background-repeat: no-repeat;
   background-size: 100% 1rem;
   background-position: bottom center;
@@ -102,8 +102,6 @@ export default () => (
       </Flex>
     </Container>
     <ScrollHint />
-    <Flex justify={['flex-end']} px={3}>
-      <LocationPill>Tucson, AZ</LocationPill>
-    </Flex>
+    
   </Slide>
 )
