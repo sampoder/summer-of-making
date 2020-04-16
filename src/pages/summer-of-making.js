@@ -29,7 +29,7 @@ const desc =
 export default () => (
   <Layout title={title} desc={desc} img="/cards/bank_one.png" path="/bank/">
     <style children={styles} />
-    <Nav dark />
+    <Nav/>
     <Landing />
     <Features />
     <Timeline />
