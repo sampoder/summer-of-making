@@ -27,7 +27,7 @@ const Slide = styled(Flex).attrs({
   h1 {
     line-height: 1.125;
     letter-spacing: -0.02em;
-    text-shadow: 0 0 16px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 12px rgba(0, 0, 0, 1);
   }
   p {
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
@@ -42,7 +42,7 @@ const Vignette = styled.div`
     rgba(0, 0, 0, 0.625) 50%,
     rgba(0, 0, 0, 0.75) 100%
   );
-  height: 30vh;
+  height: 25vh;
   left: 0;
   right: 0;
   position: absolute;
