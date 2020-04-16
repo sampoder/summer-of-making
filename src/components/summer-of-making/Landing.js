@@ -100,8 +100,13 @@ export default () => (
       <Flex justify="center" align="center">
         <Button href="#apply">Apply now!</Button>
       </Flex>
+      
     </Container>
     <ScrollHint />
+
+    <Flex justify={['flex-end']} px={3}>
+      <LocationPill>Tucson, AZ</LocationPill>
+    </Flex>
     
   </Slide>
 )
