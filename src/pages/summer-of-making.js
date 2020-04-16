@@ -6,8 +6,6 @@ import Footer from 'components/Footer'
 import Landing from 'components/summer-of-making/Landing'
 import Run from 'components/summer-of-making/Run'
 import Features from 'components/summer-of-making/Features'
-import Testimonials from 'components/summer-of-making/Testimonials'
-import Everything from 'components/summer-of-making/Everything'
 import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
 

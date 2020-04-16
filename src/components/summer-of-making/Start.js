@@ -5,7 +5,6 @@ import { Fade } from 'react-reveal'
 import { Headline, Subhline, Lead } from 'components/Content'
 import Sheet from 'components/Sheet'
 import Form from 'components/summer-of-making/Signup'
-import Stats from 'components/summer-of-making/Stats'
 
 const Grid = styled(Container).attrs({ maxWidth: 48 })`
   display: grid;
