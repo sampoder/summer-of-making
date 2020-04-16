@@ -91,7 +91,7 @@ export default () => (
     >
       <Fade bottom>
         <Heading.h1 fontSize={[6, 7, 8, 9]}>
-          Make something <Underline>awesome</Underline>this{' '}
+          Make something <Underline>awesome</Underline> this{' '}
           <Underline>summer</Underline>.
         </Heading.h1>
         <Lead maxWidth={48} my={4} fontSize={[3, 4]}>
