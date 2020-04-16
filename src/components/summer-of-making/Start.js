@@ -76,7 +76,7 @@ export default () => (
       <Fade bottom>
         <Sheet bg="#252429" color="snow" maxWidth={32} p={[3, 4, 5]}>
           <Subhline fontSize={[3, 4]} mb={[4, 5]}>
-            Your event
+            Your Application
           </Subhline>
           <Form />
         </Sheet>
