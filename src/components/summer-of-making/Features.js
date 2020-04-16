@@ -135,14 +135,9 @@ export default () => (
         body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
       />
       <Module
-        icon="payment"
-        name="Built-in invoicing"
-        body="Accept sponsor payments with low negotiated rates from Stripe."
-      />
-      <Module
-        icon="docs"
-        name="Pre-written forms"
-        body="Download liability + photo forms custom written by expert lawyers."
+        icon="web"
+        name="Marketing Assistance"
+        body="We'll promote your project through channels as well as supporting you with your own marketing."
       />
       <Module
         icon="shirt"
@@ -153,6 +148,11 @@ export default () => (
         icon="mention"
         name="Priority Support"
         body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
+      />
+      <Module
+        icon="payment"
+        name="For Free"
+        body="Did we forget to mention that this is all for free? No hidden charges, we solemnly swear."
       />
       
     </Modules>
