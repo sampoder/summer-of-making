@@ -42,7 +42,7 @@ const Vignette = styled.div`
     rgba(0, 0, 0, 0.625) 50%,
     rgba(0, 0, 0, 0.75) 100%
   );
-  height: 25vh;
+  height: 15vh;
   left: 0;
   right: 0;
   position: absolute;

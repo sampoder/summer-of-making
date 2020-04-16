@@ -34,8 +34,6 @@ export default () => (
     <Nav dark />
     <Landing />
     <Features />
-    <Testimonials />
-    <Everything />
     <Timeline />
     <Run />
     <Start />
