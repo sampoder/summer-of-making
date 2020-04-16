@@ -65,11 +65,10 @@ export default () => (
   <Box.section bg="dark" py={[5, 6, 7]} id="apply">
     <Container maxWidth={48} px={3} align="center">
       <Headline color="white" mb={2}>
-        Sign up for Hack&nbsp;Club Bank.
+        Apply for Hack Club's Summer of Making Program.
       </Headline>
       <Lead maxWidth={32} color="muted">
-        Open to all US-based registered Hack Clubs, hackathons, and your next
-        amazing event.
+        Open to all teenagers aged 13 to 18 in the world..
       </Lead>
     </Container>
     <Grid mt={[4, 5]} mb={[3, 4]} px={3}>
@@ -84,19 +83,11 @@ export default () => (
       <div>
         <Timeline>
           <Timeline.Step icon="send" name="Apply" duration="Right now" first />
-          <Timeline.Step name="Interview call" duration="In 2 days" />
-          <Timeline.Step name="Sign the contract" duration="Same day" />
-          <Timeline.Step name="Receive debit cards" duration="1 week later" />
+          <Timeline.Step name="Application Results" duration="On June 15th" />
+          <Timeline.Step name="Meet your Mentor" duration="That Same Week" />
+          <Timeline.Step name="Get Making!" duration="This Summer" />
         </Timeline>
-        <Stats
-          color="smoke"
-          labelColor="muted"
-          fontSize={[7, 8]}
-          my={[3, 4]}
-          px={[0, 0]}
-          width="auto"
-          align="left"
-        />
+        
       </div>
     </Grid>
     <Lead maxWidth={36} color="slate" align="center" fontSize={2}>
