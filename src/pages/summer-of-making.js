@@ -1,7 +1,7 @@
 import React from 'react'
 import { theme } from '@hackclub/design-system'
 import Layout from 'components/Layout'
-import Nav from 'components/Nav-alt'
+import Nav from 'components/Nav'
 import Footer from 'components/Footer'
 import Landing from 'components/summer-of-making/Landing'
 import Run from 'components/summer-of-making/Run'
@@ -29,7 +29,7 @@ const desc =
 export default () => (
   <Layout title={title} desc={desc} img="/cards/bank_one.png" path="/bank/">
     <style children={styles} />
-    <Nav dark />
+    <Nav/>
     <Landing />
     <Features />
     <Timeline />
