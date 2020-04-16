@@ -160,14 +160,14 @@ export default () => (
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
       Have more questions?
       <br />
-      Check out the{' '}
+      Message {' '}
       <A
-        href="https://bank.hackclub.com/faq"
+        href="/community/"
         target="_blank"
         color="primary"
         hoverline
       >
-        Hack Club Bank FAQ
+        @sampoder on Slack.
       </A>
       .
     </Lead>
