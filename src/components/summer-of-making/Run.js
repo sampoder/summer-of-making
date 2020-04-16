@@ -51,24 +51,23 @@ export default () => (
   <Base>
     <Main maxWidth={60}>
       <Container maxWidth={32} mx={0}>
-        <Subhline>Bank doesn’t stop at closing ceremony.</Subhline>
+        <Subhline>The making doesn’t stop after summer.</Subhline>
         <Lead color="muted" fontWeight={3}>
-          Setting up a bank account is just the start. Hack Club Bank helps you
-          handle ongoing obligations while you’re organizing.
+          Participating is just the start. You'll be part of an exclusive alumni of passionate makers like you.
         </Lead>
       </Container>
       <List>
         <List.Item
           icon="docs"
-          body="We handle ongoing tax filings including end-of-year taxes"
+          body="You'll meet industry professionals who can support you."
         />
         <List.Item
           icon="payment"
-          body="Our accountants regularly reconcile your books"
+          body="You'll make new friends!"
         />
         <List.Item
           icon="history"
-          body="You always have access to historical financial data"
+          body="You'll have a project that you can keep on building on."
         />
       </List>
     </Main>
