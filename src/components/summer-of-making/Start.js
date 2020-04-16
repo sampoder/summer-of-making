@@ -68,7 +68,7 @@ export default () => (
         Apply for Hack Club's Summer of Making Program.
       </Headline>
       <Lead maxWidth={32} color="muted">
-        Open to all teenagers aged 13 to 18 in the world..
+        Open to <strong>all</strong> teenagers aged 13 to 18.
       </Lead>
     </Container>
     <Grid mt={[4, 5]} mb={[3, 4]} px={3}>

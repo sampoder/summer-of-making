@@ -105,48 +105,14 @@ Timeline.Step = ({ icon, name, duration, mb = 4 }) => (
 export default () => (
   <Box.section bg="darker" pt={[5, 6, 7]} pb={[4, 5]}>
     <Container align="center" maxWidth={36} px={3} mb={[4, 5, 6]}>
-      <Subhline color="white">How long does it take?</Subhline>
-      <Lead color="muted">
-        With Hack Club Bank, your account can be set up within days. We help
-        with all the paperwork.
-      </Lead>
+      <Subhline color="white">Timeline</Subhline>
+      
     </Container>
     <Timeline px={3}>
-      <Timeline.Step icon="send" name="Submit sign-up form" duration="Day 1" />
-      <Timeline.Step
-        icon="welcome"
-        name={
-          <Fragment>
-            Interview call with{' '}
-            <Flex
-              align="center"
-              justify={['start', 'center']}
-              fontSize={3}
-              bold
-            >
-              <Avatar
-                src={require('../../../static/hackers/michael.jpg')}
-                size={32}
-                alt="Michael’s avatar"
-                mr={1}
-              />
-              Michael
-            </Flex>
-          </Fragment>
-        }
-        duration="Day 3"
-      />
-      <Timeline.Step
-        icon="post"
-        name={<Fragment>Sign the contract & get online access</Fragment>}
-        duration="Day 4"
-      />
-      <Timeline.Step
-        icon="card"
-        name="Receive debit cards"
-        duration="Day 10"
-        mb={0}
-      />
+      <Timeline.Step icon="send" name="Application Period" duration="May 1st to 31st" />
+      <Timeline.Step icon="send" name="Application Results Released" duration="June 15th" />
+      <Timeline.Step icon="send" name="Get Making!" duration="June 15th to September 1st" />
+      <Timeline.Step icon="send" name="Completed Projects Showcased" duration="September 2nd" />
     </Timeline>
   </Box.section>
 )
