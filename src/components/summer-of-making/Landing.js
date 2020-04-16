@@ -105,7 +105,7 @@ export default () => (
     <ScrollHint />
 
     <Flex justify={['flex-end']} px={3}>
-      
+      <LocationPill>Image by Igor Starkov</LocationPill>
     </Flex>
     
   </Slide>
