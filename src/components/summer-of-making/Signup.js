@@ -32,22 +32,12 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
   <Base
     method="get"
     target="_blank"
-    action={`https://airtable.com/shrW33gWaPnSDBhYj`}
+    action={`https://airtable.com/shrzvck3Oz5Kkr33M`}
   >
     <Field
-      label="Event name"
-      name="prefill_Event Name"
-      placeholder="Windy City Hacks"
-      value={values.name}
-      onChange={handleChange}
-      onBlur={handleBlur}
-      error={touched.name && errors.name}
-      mb={2}
-    />
-    <Field
-      label="First name"
-      name="prefill_First Name"
-      placeholder="Sam"
+      label="Full Name"
+      name="prefill_Full Name"
+      placeholder="Sam Poder"
       value={values.first_name}
       onChange={handleChange}
       onBlur={handleBlur}
@@ -55,9 +45,9 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
       mb={2}
     />
     <Field
-      label="Last name"
-      name="prefill_Last Name"
-      placeholder="Davis"
+      label="Contact Email"
+      name="prefill_Contact Email"
+      placeholder="sampoder@email.com"
       value={values.last_name}
       onChange={handleChange}
       onBlur={handleBlur}
