@@ -122,24 +122,6 @@ export default () => (
           Ongoing support so you can focus on your event, not the paperwork.
         </Lead>
       </Box>
-      <Box>
-        <Module
-          icon="bank-account"
-          name="Bank account"
-          body="Backed by Silicon Valley Bank with a custom, beautiful dashboard."
-        />
-        <ModuleDetails>
-          <Document
-            name="501(c)(3) nonprofit status"
-            cost="Become part of Hack Club's legal entity, getting the benefits of our tax status."
-          />
-          <Document
-            name="Tax filings (990, end-of-year)"
-            cost="We handle all filings with the IRS, so you can focus on your event, not hiring CPAs."
-          />
-        </ModuleDetails>
-      </Box>
-      <Laptop />
       <Module
         icon="card"
         name="Debit cards"
