@@ -90,9 +90,6 @@ export default () => (
         
       </div>
     </Grid>
-    <Lead maxWidth={36} color="slate" align="center" fontSize={2}>
-      Hack Club does not directly provide banking services. Banking services
-      provided by Silicon Valley Bank, an FDIC-certified institution.
-    </Lead>
+    
   </Box.section>
 )
