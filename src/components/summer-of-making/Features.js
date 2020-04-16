@@ -122,24 +122,13 @@ export default () => (
           Ongoing support so you can focus on your event, not the paperwork.
         </Lead>
       </Box>
+
       <Module
-        icon="card"
-        name="Debit cards"
-        body={
-          <>
-            Issue physical debit cards to all your teammates, backed by{' '}
-            <A
-              href="https://www.emburse.com/solutions/non-profits/"
-              color="smoke"
-              hoverline
-              target="_blank"
-            >
-              Emburse
-            </A>
-            .
-          </>
-        }
+        icon="support"
+        name="Mentorship"
+        body="Every participant will be receiving their very own industry expert mentor to support them every step of the way."
       />
+      
       <Module
         icon="analytics"
         name="Balance & history"
@@ -165,11 +154,7 @@ export default () => (
         name="G Suite accounts"
         body="Get free G Suite accounts & email addresses (like joy@hackpenn.com) for everyone."
       />
-      <Module
-        icon="support"
-        name="Support anytime"
-        body="We’ll never leave you hanging with best-effort 24hr response time."
-      />
+      
     </Modules>
 
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
