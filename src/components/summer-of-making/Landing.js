@@ -99,7 +99,7 @@ export default () => (
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
-        <Button href="#apply">Apply with your event!</Button>
+        <Button href="#apply">Apply now!</Button>
       </Flex>
     </Container>
     <ScrollHint />
