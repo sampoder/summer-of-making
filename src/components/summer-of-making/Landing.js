@@ -91,23 +91,11 @@ export default () => (
     >
       <Fade bottom>
         <Heading.h1 fontSize={[6, 7, 8, 9]}>
-          Make something <Underline>awesome</Underline> this{' '}
+          Let's make something <Underline>awesome</Underline> this{' '}
           <Underline>summer</Underline>.
         </Heading.h1>
         <Lead maxWidth={48} my={4} fontSize={[3, 4]}>
-          The team behind{' '}
-          <A
-            href="https://hackaz.io/?ref=bank"
-            target="_blank"
-            color="inherit"
-            bold
-            hoverline
-          >
-            Hack&nbsp;Arizona
-          </A>{' '}
-          is one of 100+ teams who uses{' '}
-          <strong>Hack&nbsp;Club&nbsp;Bank</strong> to run world-class
-          hackathons.
+          Hack Club Summer of Making empowers you to make that passion project a reality. No more putting it off, now's the time.
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
