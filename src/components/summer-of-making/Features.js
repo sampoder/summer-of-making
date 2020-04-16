@@ -126,7 +126,7 @@ export default () => (
       <Module
         icon="support"
         name="Mentorship"
-        body="Every participant will be receiving their very own industry expert mentor to support them every step of the way."
+        body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
       />
       
       <Module
