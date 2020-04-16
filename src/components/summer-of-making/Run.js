@@ -53,7 +53,7 @@ export default () => (
       <Container maxWidth={60} mx={0}>
         <Subhline>The making doesn’t stop after summer.</Subhline>
         <Lead color="muted" fontWeight={3}>
-          Participating is just the start. You'll be part of an exclusive alumni of passionate makers like you and will have new found industry contacts.
+          Participating is just the start. You'll be part of an alumni of passionate makers like you and will have new found industry contacts.
         </Lead>
       </Container>
       
