@@ -115,11 +115,11 @@ export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
     <Modules px={3}>
       <Box>
-        <Headline>A full-stack toolkit for organizing events.</Headline>
+        <Headline>Everything you need to make your dream a reality.</Headline>
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0}>
-          Invoice sponsors, issue debit cards to your team, and view history.
+          We want to see you succeed and will be there for every step of the process.
           <br />
-          Ongoing support so you can focus on your event, not the paperwork.
+          Want something else integrated into the program? Let us know.
         </Lead>
       </Box>
 
