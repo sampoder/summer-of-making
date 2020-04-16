@@ -22,12 +22,11 @@ const styles = `
   }
 `
 
-const title = 'Hack Club Bank – The Bank For Student Hackers'
+const title = 'Summer of Making 2020 by Hack Club'
 const desc =
-  'Hack Club Bank provides a 501(c)(3) status-backed bank account optimized for high school hackathons that includes invoicing, debit cards, pre-written legal forms, seamless receipt collection, and automated tax filing to help organizers focus on running great events.'
-
+  "Let's make something awesome this summer. Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!"
 export default () => (
-  <Layout title={title} desc={desc} img="/cards/bank_one.png" path="/bank/">
+  <Layout title={title} desc={desc} img="/cards/summer.png" path="/bank/">
     <style children={styles} />
     <Nav dark/>
     <Landing />
