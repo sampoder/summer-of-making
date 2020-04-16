@@ -50,26 +50,13 @@ List.Item = ({ icon, body }) => (
 export default () => (
   <Base>
     <Main maxWidth={60}>
-      <Container maxWidth={32} mx={0}>
+      <Container maxWidth={60} mx={0}>
         <Subhline>The making doesn’t stop after summer.</Subhline>
         <Lead color="muted" fontWeight={3}>
           Participating is just the start. You'll be part of an exclusive alumni of passionate makers like you.
         </Lead>
       </Container>
-      <List>
-        <List.Item
-          icon="docs"
-          body="You'll meet industry professionals who can support you."
-        />
-        <List.Item
-          icon="payment"
-          body="You'll make new friends!"
-        />
-        <List.Item
-          icon="history"
-          body="You'll have a project that you can keep on building on."
-        />
-      </List>
+      
     </Main>
   </Base>
 )
