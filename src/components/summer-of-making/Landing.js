@@ -94,7 +94,7 @@ export default () => (
           <Underline>summer</Underline>.
         </Heading.h1>
         <Lead maxWidth={48} my={4} fontSize={[3, 4]}>
-          Hack Club Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!
+          Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
