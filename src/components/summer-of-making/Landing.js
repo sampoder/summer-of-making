@@ -93,10 +93,10 @@ export default () => (
           Let's make something <Underline>awesome</Underline> this{' '}
           <Underline>summer</Underline>.
         </Heading.h1>
-        <Lead maxWidth={48} my={4} fontSize={[3, 4]}>
-          <strong>
+        <Lead maxWidth={48} my={4} fontSize={[3, 4]} font-weight={250}>
+          
           Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!
-          </strong>
+          
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
