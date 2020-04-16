@@ -26,7 +26,7 @@ const title = 'Summer of Making 2020 by Hack Club'
 const desc =
   "Let's make something awesome this summer. Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!"
 export default () => (
-  <Layout title={title} desc={desc} img="/cards/summer.png" path="/bank/">
+  <Layout title={title} desc={desc} img="/cards/summer.png" path="/summer-of-making/">
     <style children={styles} />
     <Nav dark/>
     <Landing />
