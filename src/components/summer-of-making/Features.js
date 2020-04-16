@@ -167,7 +167,7 @@ export default () => (
         color="primary"
         hoverline
       >
-        @sampoder on Slack.
+        @sampoder on Slack
       </A>
       .
     </Lead>
