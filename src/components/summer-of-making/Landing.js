@@ -19,7 +19,6 @@ const Slide = styled(Flex).attrs({
   width: '100vw'
 })`
   background: url('/summer.jpg');
-  box-shadow: inset 0 0 4rem 4rem rgba(0, 0, 0, 0.5);
   background-position: center;
   background-size: cover;
   width: 100%;
