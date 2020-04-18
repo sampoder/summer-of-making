@@ -28,6 +28,9 @@ const Flag = styled(Link)`
   height: 48px;
   transition: ${theme.transition} transform;
   transform-origin: top center;
+  margin-left: auto;
+  margin-right: auto;
+
   ${theme.mediaQueries.md} {
     width: 144px;
     height: 72px;
