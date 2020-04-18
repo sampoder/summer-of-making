@@ -109,67 +109,9 @@ const Footer = ({ dark = false, children, ...props }) => (
     {children}
     <PureImagination />
     <Container px={3}>
-      <Columns>
-        <Box>
-          <Heading.h2 fontSize={3} mb={3}>
-            Hack Club
-          </Heading.h2>
-          <Pages>
-            <Link to="/" children="Home" />
-            <a href="https://apply.hackclub.com/" children="Apply" />
-            <Link to="/donate/" children="Donate" />
-            <Link to="/team/" children="Team" />
-            <Link to="/community/" children="Community" />
-            <Link to="/philosophy/" children="Philosophy" />
-          </Pages>
-        </Box>
-        <Box>
-          <Heading.h2 fontSize={3} mb={3}>
-            Resources
-          </Heading.h2>
-          <Pages>
-            <a href="/conduct/" children="Code of Conduct" />
-            <a href="https://workshops.hackclub.com/" children="Workshops" />
-            <Link to="/night/" children="Hack Night" />
-            <a href="https://hackathons.hackclub.com/" children="Hackathons" />
-            <a href="https://help.hackclub.com/" children="Guides" />
-            <Link to="/bank/" children="Bank" />
-          </Pages>
-        </Box>
-        <Box>
-          <Heading.h2 fontSize={3} mb={3}>
-            Join the Club
-          </Heading.h2>
-          <Services>
-            <Service href="/community/" icon="slack-fill" target="_self" />
-            <Service href="https://twitter.com/hackclub" icon="twitter" />
-            <Service href="https://github.com/hackclub" icon="github" />
-            <Service
-              href="https://www.facebook.com/Hack-Club-741805665870458"
-              icon="facebook"
-            />
-            <Service href="https://medium.com/hackclub" icon="medium" />
-            <Service
-              href="https://www.youtube.com/channel/UCQzO0jpcRkP-9eWKMpJyB0w"
-              icon="youtube"
-            />
-            <Service
-              href="https://www.instagram.com/starthackclub"
-              icon="instagram"
-            />
-            <Service href="mailto:team@hackclub.com" icon="email" />
-          </Services>
-          <Text my={2}>
-            <a href="tel:1-855-625-HACK">1-855-625-HACK</a>
-            <br />
-            <Text.span color="muted" children="(call toll-free)" />
-          </Text>
-        </Box>
-      </Columns>
       <Box fontSize={2} mt={[3, 4]}>
-        <Text>Office: 576 Natoma St, San Francisco, CA 94103</Text>
         <Text>
-          Mail: 8605 Santa Monica Blvd #86294, West Hollywood, CA 90069
+          A Project by Hack Club
         </Text>
       </Box>
       <BottomLine mt={3}>
