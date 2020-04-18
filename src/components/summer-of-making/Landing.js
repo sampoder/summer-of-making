@@ -79,7 +79,7 @@ export default () => (
   <Slide>
     <Vignette />
     <Container
-      pt={[7,8]}
+      pt={[7.5,8.5]}
       pb={[4, 5]}
       px={3}
       align="center"
@@ -104,10 +104,6 @@ export default () => (
       
     </Container>
     <ScrollHint />
-
-    <Flex justify={['flex-end']} px={3}>
-      <LocationPill>Image by Jayson Santos</LocationPill>
-    </Flex>
     
   </Slide>
 )
