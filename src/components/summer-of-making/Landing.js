@@ -79,12 +79,12 @@ export default () => (
   <Slide>
     <Vignette />
     <Container
-      pt={[6, 7, 8]}
+      pt={[4, 5]}
       pb={[4, 5]}
       px={3}
       align="center"
       color="white"
-      mt="35%"
+      mt="auto"
       maxWidth={75}
       style={{ zIndex: 100 }}
     >
