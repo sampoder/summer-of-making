@@ -79,7 +79,7 @@ export default () => (
   <Slide>
     <Vignette />
     <Container
-      pt={[8,9]}
+      pt={[7,8]}
       pb={[4, 5]}
       px={3}
       align="center"
@@ -104,6 +104,7 @@ export default () => (
       
     </Container>
     <ScrollHint />
+
     
   </Slide>
 )
