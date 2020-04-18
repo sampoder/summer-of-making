@@ -84,7 +84,7 @@ export default () => (
       px={3}
       align="center"
       color="white"
-      mt="auto"
+      mt="35%"
       maxWidth={75}
       style={{ zIndex: 100 }}
     >
