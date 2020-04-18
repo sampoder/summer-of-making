@@ -160,14 +160,14 @@ export default () => (
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
       Have more questions?
       <br />
-      Message {' '}
+      Contact us {' '}
       <A
-        href="/community/"
+        href="https://airtable.com/shrZYs8mqaCqKJ6Hl"
         target="_blank"
         color="primary"
         hoverline
       >
-        @sampoder on Slack
+        here
       </A>
       .
     </Lead>
