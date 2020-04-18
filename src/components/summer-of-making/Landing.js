@@ -79,7 +79,7 @@ export default () => (
   <Slide>
     <Vignette />
     <Container
-      pt={[7.5,8.5]}
+      pt={[8,9]}
       pb={[4, 5]}
       px={3}
       align="center"
