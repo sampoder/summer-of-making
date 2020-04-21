@@ -1,19 +1,6 @@
-<p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://hackclub.com/icon/icon-masked.png"></a>
-<h1 align="center"><a href="https://hackclub.com/">Hack Club Site</a></h1>
-<p align="center"><i>The source code for hackclub.com</i></p>
-
-Website internals:
-
-- [hackclub/design-system](https://github.com/hackclub/design-system)
-- [hackclub/icons](https://github.com/hackclub/icons)
-- [hackclub/season](https://github.com/hackclub/season)
-- [hackclub/banner](https://github.com/hackclub/banner)
-
-Our other website repos:
-
-- [hackclub/hackathons](https://github.com/hackclub/hackathons)
-- [hackclub/workshops](https://github.com/hackclub/workshops)
-- [hackclub/apply](https://github.com/hackclub/apply)
+<p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://zealous-mclean-4117001.netlify.app/favicon.png"></a>
+<h1 align="center"><a href="https://hackclub.com/">Summer of Making Site</a></h1>
+<p align="center"><i>The source code for summer.hackclub.com</i></p>
 
 ### Development environment setup
 
